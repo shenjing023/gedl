@@ -1,4 +1,4 @@
-module github.com/shenjing023/gedl
+module gedl
 
 go 1.17
 

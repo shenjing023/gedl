@@ -1,4 +1,4 @@
-package gedl
+package main
 
 import (
 	"context"
@@ -113,6 +113,7 @@ func (d *Discovery) watch(prefix string, addrList []resolver.Address) {
 func (d *Discovery) ResolveNow(rn resolver.ResolveNowOptions) {
 }
 
+// Close 当调用`grpc.ClientConn.Close()`时执行
 func (d *Discovery) Close() {
 	d.etcdCli.Close()
 }

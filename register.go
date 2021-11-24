@@ -1,4 +1,4 @@
-package gedl
+package main
 
 import (
 	"context"
